@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Search Everywhere — for Box",
+  "short_name": "Search Everywhere",
+  "version": "1.0.0",
+  "description": "Automatically selects \"Everywhere\" in Box search results (not affiliated with Box, Inc.).",
+  "icons": {
+    "128": "icons/128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://*.box.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_end"
+    }
+  ],
+  "action": {
+    "default_title": "Toggle Search Everywhere"
+  }
+}
