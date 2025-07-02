@@ -8,7 +8,7 @@ Chrome extension that auto-selects “Everywhere” in Box search so you never m
 - < 1 KB of client-side code, zero telemetry
 
 ## Install
-Grab it from the [Chrome Web Store](https://chromewebstore.google.com/detail/ID_TBA)  
+Grab it from the [Chrome Web Store](https://chromewebstore.google.com/detail/gkcnoeeimifpghdbbglgalpdijlpccnf)  
 or load `manifest.json` in `chrome://extensions → Load unpacked`.
 
 ## Development
